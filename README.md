@@ -22,8 +22,7 @@ That’s it! The ad blocker will start working immediately.
 ## How to Use
 
 - Click on the extension icon in the toolbar
-- Use the switch to turn blocking ON or OFF
-- When active, it blocks ads every second
+- it blocks ads every second
 
 ## Files
 
