@@ -1,0 +1,28 @@
+{
+  "name": "Ad Blocker by AJ",
+  "description": "Blocks basic ads",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "ui/popup.html",
+    "default_icon": "images/adblocker_AJ_icon_v2_16x16.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "rules",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}

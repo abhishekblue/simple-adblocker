@@ -1,0 +1,101 @@
+[
+    {
+        "id" : 1,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "pubmatic",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 2,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "larapush",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 3,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "taboola",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 4,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "doubleclick",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 5,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "yandex",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 6,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "adserve",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 7,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "fastclick",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 8,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "amazonaws",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 9,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "adcolony",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 10,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "yandex",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    },
+    {
+        "id" : 11,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+    "urlFilter" : "media.net",
+    "resourceTypes" : ["script", "image", "sub_frame", "xmlhttprequest"]
+        }
+    }
+]
